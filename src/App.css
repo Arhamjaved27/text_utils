@@ -2,34 +2,105 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: var(--background-color-lite);
 }
 
 :root{
-
-    --high-text: rgb(0, 238, 255);
+    --primary-color: #FF5733; /* Main or dominant color */
+  --secondary-color: #33C1FF; /* Used for accents or highlights */
+  --background-color-lite: rgb(255, 245, 245); /* Background color of the site light */
+  --background-color-dark: rgb(0, 33, 71); /* Background color of the site dark */
 }
-.bg-high{
-    background-color: var(--high-text);
+.bg-primary-color{
+    background-color: var(--primary-color);
+}
+.bg-secondary-color{
+    background-color: var(--secondary-color);
+}
+.bg-light-color{
+    background-color: var(--background-color-light);
+}
+.bg-dark-color{
+    background-color: var(--background-color-dark);
+}
+
+.text-primary-color{
+    color: var(--primary-color);
+}
+
+.btn-hover:hover{
+    background-color: var(--secondary-color);
+    opacity: 0.9;
 }
 
 #srch{
-    background-color: rebeccapurple;
     height:37px;
     border-radius:5px;
-    border:1px solid var(--high-text);
+    border:1px solid var(--secondary-color);
     background:none;
 }
 
 .link-cl{
     text-decoration: none;
-    color: whitesmoke;
+    color: var(--background-color-lite);
+    font-weight: 700;
 }
 .link-cl:hover{
-    color: var(--high-text);
+    color: var(--secondary-color);
 }
 
+.drop-link{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    border-radius: 7px;
+    padding: 10px 0;
+    margin: 2px 0;
+    background-color: var(--background-color-lite);
+}
+.drop-link:hover{
+    background-color: var(--primary-color);
+}
 .active{
     font-weight: 800;
-    color: var(--high-text);
-
+    color: var(--secondary-color);
 }
+
+/* for PC / */
+
+@media only screen and (min-width: 1024px) {
+    #drop-togle{
+     display: none;
+     background-color: red;
+    }
+    
+ }
+
+
+
+/* for tablets / */
+
+@media only screen and (max-width: 1024px) {
+   #nav-menu{
+    display: none;
+   }
+   #search{
+    display: none;
+   }
+   #drop-togle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   #togel-close{
+    display: none;
+}
+}
+
+/* for mobile  */
+
+@media only screen and (max-width: 480px) {
+    
+  }
+
+

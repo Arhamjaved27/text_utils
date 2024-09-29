@@ -1,0 +1,91 @@
+:root{
+    --primary-color: #FF5733; /* Main or dominant color */
+  --secondary-color: #33C1FF; /* Used for accents or highlights */
+  --background-color-light: rgb(245, 255, 250); /* Background color of the site light */
+  --background-color-light: rgb(0, 33, 71); /* Background color of the site dark */
+}
+
+
+
+
+
+
+.hv-1{ height: 10vh;}
+.hv-2{ height: 20vh;}
+.hv-3{ height: 30vh;}
+.hv-4{ height: 40vh;}
+.hv-5{ height: 50vh;}
+.hv-6{ height: 60vh;}
+.hv-7{ height: 70vh;}
+.hv-8{ height: 80vh;}
+.hv-9{ height: 90vh;}
+.hv-10{ height: 100vh;}
+
+
+.wv-1{ width: 10vw;}
+.wv-2{ width: 20vw;}
+.wv-3{ width: 30vw;}
+.wv-4{ width: 40vw;}
+.wv-5{ width: 50vw;}
+.wv-6{ width: 60vw;}
+.wv-7{ width: 70vw;}
+.wv-8{ width: 80vw;}
+.wv-9{ width: 90vw;}
+.wv-10{ width: 100vw;}
+
+
+
+.hp-1{ height: 10%;}
+.hp-2{ height: 20%;}
+.hp-3{ height: 30%;}
+.hp-4{ height: 40%;}
+.hp-5{ height: 50%;}
+.hp-6{ height: 60%;}
+.hp-7{ height: 70%;}
+.hp-8{ height: 80%;}
+.hp-9{ height: 90%;}
+.hp-10{ height: 100%;}
+
+
+.wp-1{ width: 10%;}
+.wp-2{ width: 20%;}
+.wp-3{ width: 30%;}
+.wp-4{ width: 40%;}
+.wp-5{ width: 50%;}
+.wp-6{ width: 60%;}
+.wp-7{ width: 70%;}
+.wp-8{ width: 80%;}
+.wp-9{ width: 90%;}
+.wp-10{ width: 100%;}
+
+
+
+
+
+
+
+.border-primary-1{ border: 1px solid var(--primary-color);}
+.border-primary-2{ border: 1px solid var(--primary-color);}
+.border-primary-3{ border: 1px solid var(--primary-color);}
+.border-primary-4{ border: 1px solid var(--primary-color);}
+.border-primary-5{ border: 1px solid var(--primary-color);}
+.border-primary-6{ border: 1px solid var(--primary-color);}
+.border-primary-7{ border: 1px solid var(--primary-color);}
+.border-primary-8{ border: 1px solid var(--primary-color);}
+.border-primary-9{ border: 1px solid var(--primary-color);}
+.border-primary-10{ border: 1px solid var(--primary-color);}
+
+
+
+/* /////////////////////////////////// Radius  ///////////////////////////////  */
+
+.br-1{ border-radius: 2px;}
+.br-2{ border-radius: 4px;}
+.br-3{ border-radius: 6px;}
+.br-4{ border-radius: 8px;}
+.br-5{ border-radius: 10px;}
+.br-6{ border-radius: 12px;}
+.br-7{ border-radius: 14px;}
+.br-8{ border-radius: 16px;}
+.br-9{ border-radius: 18px;}
+.br-10{ border-radius: 20px;}
