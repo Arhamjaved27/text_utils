@@ -45,6 +45,12 @@
     color: var(--background-color-lite);
     font-weight: 700;
 }
+.down-link-cl{
+    text-decoration: none;
+    color: var(--background-color-dark);
+    font-weight: 700;
+}
+
 .link-cl:hover{
     color: var(--secondary-color);
 }
@@ -58,6 +64,8 @@
     margin: 2px 0;
     background-color: var(--background-color-lite);
 }
+
+
 .drop-link:hover{
     background-color: var(--primary-color);
 }
@@ -71,7 +79,10 @@
 @media only screen and (min-width: 1024px) {
     #drop-togle{
      display: none;
-     background-color: red;
+    }
+    #drop-menu{
+        display: none;
+        background-color: red;
     }
     
  }

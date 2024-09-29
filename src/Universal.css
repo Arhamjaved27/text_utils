@@ -2,7 +2,7 @@
     --primary-color: #FF5733; /* Main or dominant color */
   --secondary-color: #33C1FF; /* Used for accents or highlights */
   --background-color-light: rgb(245, 255, 250); /* Background color of the site light */
-  --background-color-light: rgb(0, 33, 71); /* Background color of the site dark */
+  --background-color-dark: rgb(0, 33, 71); /* Background color of the site dark */
 }
 
 
@@ -89,3 +89,12 @@
 .br-8{ border-radius: 16px;}
 .br-9{ border-radius: 18px;}
 .br-10{ border-radius: 20px;}
+
+
+.txt-color-dark{
+    color: var(--background-color-dark);
+}
+
+.txt-color-prinary{
+    color: var(--primary-color);
+}
