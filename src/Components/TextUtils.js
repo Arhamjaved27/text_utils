@@ -11,13 +11,22 @@ export default function TextUtils() {
         setText(event.target.value);
     }
 
-    const  OnUpHangle = ()=>{
+    const  OnUpHandle = ()=>{
         console.log("Upper case text change");
         let newText = text.toUpperCase(); 
         setText(newText);
         
     }
+    const  OnDownHandle = ()=>{
+        console.log("Lower case text change");
+        let newText = text.toLowerCase(); 
+        setText(newText);
+        
+    }
 
+    const OnClearText= ()=>{
+        setText("");
+    }
     
   return (
     <div className='bg-dark-color hv-9 pt-3'>
@@ -26,9 +35,9 @@ export default function TextUtils() {
             <textarea value={text} name="" id="" rows={12} className='wv-7 p-3 br-5 border-primary-6 txt-color-dark' placeholder='Enter your text here.... ' onChange={textBox}></textarea>
         
         <div id="text-btns" className='m-3'>
-            <button type="button" className='btn bg-primary-color text-white me-2 mt-2 btn-hover' onClick={OnUpHangle} >Upper Case</button>
-            <button type="button" className='btn bg-primary-color text-white me-2 mt-2 btn-hover'>Lower Case</button>
-            <button type="button" className='btn bg-primary-color text-white me-2 mt-2 btn-hover'>Clear Text</button>
+            <button type="button" className='btn bg-primary-color text-white me-2 mt-2 btn-hover' onClick={OnUpHandle} >Upper Case</button>
+            <button type="button" className='btn bg-primary-color text-white me-2 mt-2 btn-hover' onClick={OnDownHandle}>Lower Case</button>
+            <button type="button" className='btn bg-primary-color text-white me-2 mt-2 btn-hover' onClick={OnClearText}>Clear Text</button>
             <button type="button" className='btn bg-primary-color text-white me-2 mt-2 btn-hover'>Copy Text</button>
             <button type="button" className='btn bg-primary-color text-white me-2 mt-2 btn-hover'>Remove Extra Spaces</button>
         </div>
